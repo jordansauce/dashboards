@@ -1,0 +1,52 @@
+loss:
+    in_to_orig: null
+    logits_kl:
+      coeff: 1
+    out_to_in: null
+    out_to_orig: null
+    sparsity:
+      coeff: 3
+lr: 0.001
+max_grad_norm: 50
+n_samples: 200000
+saes:
+    dict_size_to_input_ratio: 60
+    sae_positions: blocks.10.hook_resid_pre
+wandb_project: gpt2-e2e
+wandb_run_name: null
+wandb_run_name_prefix: ''
+seed: 0
+tlens_model_name: gpt2-small
+tlens_model_path: null
+save_dir: /data/jordan_tensor/sparsify/sparsify/scripts/train_tlens_saes/out
+save_every_n_samples: null
+eval_every_n_samples: 20000
+eval_n_samples: 200
+batch_size: 8
+effective_batch_size: 16
+lr_schedule: cosine
+min_lr_factor: 0.1
+warmup_samples: 20000
+cooldown_samples: 0
+log_every_n_grad_steps: 20
+collect_act_frequency_every_n_samples: 40000
+act_frequency_n_tokens: 500000
+collect_output_metrics_every_n_samples: 0
+train_data:
+    dataset_name: apollo-research/Skylion007-openwebtext-tokenizer-gpt2
+    is_tokenized: true
+    tokenizer_name: gpt2
+    streaming: true
+    split: train
+    n_ctx: 1024
+    seed: 0
+    column_name: input_ids
+eval_data:
+    dataset_name: apollo-research/Skylion007-openwebtext-tokenizer-gpt2
+    is_tokenized: true
+    tokenizer_name: gpt2
+    streaming: true
+    split: train
+    n_ctx: 1024
+    seed: 0
+    column_name: input_ids
