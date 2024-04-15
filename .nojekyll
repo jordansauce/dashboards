@@ -1,0 +1,1 @@
+This file prevents GitHub from trying to build the site with jekll: instead the html should be served as-is: https://stackoverflow.com/questions/25262183/github-page-build-failure
