@@ -38,7 +38,7 @@ def main(json_filename: str | Path):
             batch_size = 16, 
             minibatch_size_features = 1000,
             data = dataset_config,
-            save_dir = run_sae_path.parent,
+            save_dir = save_dir,
             save_json_data = False,
             feature_indices = feature_inds,
             prompt_centric = None,
