@@ -28,15 +28,15 @@ def main(json_filename: str | Path):
         print(f'run_sae_path = {run_sae_path}')
         # Get the relevant feature indices
         feature_inds = region_data[run_type]
-        save_dir = run_sae_path.parent / Path(json_filename.replace('.json','') + '_' + run_type + '_' + region_data["description"].replace(' ','_'))
+        save_dir = Path(__file__).parent.resolve() / Path(json_filename.replace('.json','') + '_' + run + '_' + region_data["description"].replace(' ','_'))
         save_dir.mkdir(parents=True, exist_ok=True)
 
         dashbaords_config = DashboardsConfig(
             pretrained_sae_paths = run_sae_path,
             sae_config_path = run_sae_path.parent / Path("config.yaml"),
-            n_samples = 3000,
+            n_samples = 5000,
             batch_size = 16, 
-            minibatch_size_features = 1000,
+            minibatch_size_features = 50,
             data = dataset_config,
             save_dir = save_dir,
             save_json_data = False,

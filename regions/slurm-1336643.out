@@ -1,0 +1,170 @@
+no change     /data/jordan_tensor/miniconda3/condabin/conda
+no change     /data/jordan_tensor/miniconda3/bin/conda
+no change     /data/jordan_tensor/miniconda3/bin/conda-env
+no change     /data/jordan_tensor/miniconda3/bin/activate
+no change     /data/jordan_tensor/miniconda3/bin/deactivate
+no change     /data/jordan_tensor/miniconda3/etc/profile.d/conda.sh
+no change     /data/jordan_tensor/miniconda3/etc/fish/conf.d/conda.fish
+no change     /data/jordan_tensor/miniconda3/shell/condabin/Conda.psm1
+no change     /data/jordan_tensor/miniconda3/shell/condabin/conda-hook.ps1
+no change     /data/jordan_tensor/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /data/jordan_tensor/miniconda3/etc/profile.d/conda.csh
+no change     /data/jordan_tensor/.bashrc
+No action taken.
+
+CondaError: Run 'conda init' before 'conda activate'
+
+/data/jordan_tensor/dashboards/regions
+run_sae_path = /data/jordan_tensor/dashboards/gpt2-e2e_seed-0_lpcoeff-0.5_logits-kl-1.0_lr-0.0005_ratio-60.0_blocks.2.hook_resid_pre_ovhfts9n/samples_400000.pt
+Traceback (most recent call last):
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 51, in <module>
+    fire.Fire(main)
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 31, in main
+    save_dir = pathlib.Path(__file__).parent.resolve() / Path(json_filename.replace('.json','') + '_' + run_type + '_' + region_data["description"].replace(' ','_'))
+               ^^^^^^^
+NameError: name 'pathlib' is not defined. Did you forget to import 'pathlib'?
+run_sae_path = /data/jordan_tensor/dashboards/gpt2-e2e_seed-0_lpcoeff-0.5_logits-kl-1.0_lr-0.0005_ratio-60.0_blocks.2.hook_resid_pre_ovhfts9n/samples_400000.pt
+Traceback (most recent call last):
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 51, in <module>
+    fire.Fire(main)
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 31, in main
+    save_dir = pathlib.Path(__file__).parent.resolve() / Path(json_filename.replace('.json','') + '_' + run_type + '_' + region_data["description"].replace(' ','_'))
+               ^^^^^^^
+NameError: name 'pathlib' is not defined. Did you forget to import 'pathlib'?
+run_sae_path = /data/jordan_tensor/dashboards/gpt2-e2e_seed-0_lpcoeff-0.5_logits-kl-1.0_lr-0.0005_ratio-60.0_blocks.2.hook_resid_pre_ovhfts9n/samples_400000.pt
+Traceback (most recent call last):
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 51, in <module>
+    fire.Fire(main)
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 31, in main
+    save_dir = pathlib.Path(__file__).parent.resolve() / Path(json_filename.replace('.json','') + '_' + run_type + '_' + region_data["description"].replace(' ','_'))
+               ^^^^^^^
+NameError: name 'pathlib' is not defined. Did you forget to import 'pathlib'?
+run_sae_path = /data/jordan_tensor/dashboards/gpt2-e2e_seed-0_lpcoeff-3.0_logits-kl-1.0_lr-0.0005_ratio-60.0_blocks.6.hook_resid_pre_zgdpkafo/samples_400000.pt
+Traceback (most recent call last):
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 51, in <module>
+    fire.Fire(main)
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 31, in main
+    save_dir = pathlib.Path(__file__).parent.resolve() / Path(json_filename.replace('.json','') + '_' + run_type + '_' + region_data["description"].replace(' ','_'))
+               ^^^^^^^
+NameError: name 'pathlib' is not defined. Did you forget to import 'pathlib'?
+run_sae_path = /data/jordan_tensor/dashboards/gpt2-e2e_seed-0_lpcoeff-3.0_logits-kl-1.0_lr-0.0005_ratio-60.0_blocks.6.hook_resid_pre_zgdpkafo/samples_400000.pt
+Traceback (most recent call last):
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 51, in <module>
+    fire.Fire(main)
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 31, in main
+    save_dir = pathlib.Path(__file__).parent.resolve() / Path(json_filename.replace('.json','') + '_' + run_type + '_' + region_data["description"].replace(' ','_'))
+               ^^^^^^^
+NameError: name 'pathlib' is not defined. Did you forget to import 'pathlib'?
+run_sae_path = /data/jordan_tensor/dashboards/gpt2-e2e_seed-0_lpcoeff-3.0_logits-kl-1.0_lr-0.0005_ratio-60.0_blocks.6.hook_resid_pre_zgdpkafo/samples_400000.pt
+Traceback (most recent call last):
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 51, in <module>
+    fire.Fire(main)
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 31, in main
+    save_dir = pathlib.Path(__file__).parent.resolve() / Path(json_filename.replace('.json','') + '_' + run_type + '_' + region_data["description"].replace(' ','_'))
+               ^^^^^^^
+NameError: name 'pathlib' is not defined. Did you forget to import 'pathlib'?
+run_sae_path = /data/jordan_tensor/dashboards/gpt2-e2e_seed-0_lpcoeff-3.0_logits-kl-1.0_lr-0.0005_ratio-60.0_blocks.6.hook_resid_pre_zgdpkafo/samples_400000.pt
+Traceback (most recent call last):
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 51, in <module>
+    fire.Fire(main)
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 31, in main
+    save_dir = pathlib.Path(__file__).parent.resolve() / Path(json_filename.replace('.json','') + '_' + run_type + '_' + region_data["description"].replace(' ','_'))
+               ^^^^^^^
+NameError: name 'pathlib' is not defined. Did you forget to import 'pathlib'?
+run_sae_path = /data/jordan_tensor/dashboards/gpt2-e2e_seed-0_lpcoeff-1.5_logits-kl-1.0_lr-0.0005_ratio-60.0_blocks.10.hook_resid_pre_8crnit9h/samples_400000.pt
+Traceback (most recent call last):
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 51, in <module>
+    fire.Fire(main)
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 31, in main
+    save_dir = pathlib.Path(__file__).parent.resolve() / Path(json_filename.replace('.json','') + '_' + run_type + '_' + region_data["description"].replace(' ','_'))
+               ^^^^^^^
+NameError: name 'pathlib' is not defined. Did you forget to import 'pathlib'?
+run_sae_path = /data/jordan_tensor/dashboards/gpt2-e2e_seed-0_lpcoeff-1.5_logits-kl-1.0_lr-0.0005_ratio-60.0_blocks.10.hook_resid_pre_8crnit9h/samples_400000.pt
+Traceback (most recent call last):
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 51, in <module>
+    fire.Fire(main)
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/lib/python3.12/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/dashboards/regions/generate_region_dashboards.py", line 31, in main
+    save_dir = pathlib.Path(__file__).parent.resolve() / Path(json_filename.replace('.json','') + '_' + run_type + '_' + region_data["description"].replace(' ','_'))
+               ^^^^^^^
+NameError: name 'pathlib' is not defined. Did you forget to import 'pathlib'?
