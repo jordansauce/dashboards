@@ -1,0 +1,273 @@
+no change     /data/jordan_tensor/miniconda3/condabin/conda
+no change     /data/jordan_tensor/miniconda3/bin/conda
+no change     /data/jordan_tensor/miniconda3/bin/conda-env
+no change     /data/jordan_tensor/miniconda3/bin/activate
+no change     /data/jordan_tensor/miniconda3/bin/deactivate
+no change     /data/jordan_tensor/miniconda3/etc/profile.d/conda.sh
+no change     /data/jordan_tensor/miniconda3/etc/fish/conf.d/conda.fish
+no change     /data/jordan_tensor/miniconda3/shell/condabin/Conda.psm1
+no change     /data/jordan_tensor/miniconda3/shell/condabin/conda-hook.ps1
+no change     /data/jordan_tensor/miniconda3/lib/python3.12/site-packages/xontrib/conda.xsh
+no change     /data/jordan_tensor/miniconda3/etc/profile.d/conda.csh
+no change     /data/jordan_tensor/.bashrc
+No action taken.
+
+CondaError: Run 'conda init' before 'conda activate'
+
+
+     active environment : py312
+    active env location : /data/jordan_tensor/miniconda3/envs/py312
+            shell level : 2
+       user config file : /data/jordan_tensor/.condarc
+ populated config files : 
+          conda version : 24.1.2
+    conda-build version : not installed
+         python version : 3.12.1.final.0
+                 solver : libmamba (default)
+       virtual packages : __archspec=1=zen3
+                          __conda=24.1.2=0
+                          __cuda=12.3=0
+                          __glibc=2.17=0
+                          __linux=3.10.0=0
+                          __unix=0=0
+       base environment : /data/jordan_tensor/miniconda3  (writable)
+      conda av data dir : /data/jordan_tensor/miniconda3/etc/conda
+  conda av metadata url : None
+           channel URLs : https://repo.anaconda.com/pkgs/main/linux-64
+                          https://repo.anaconda.com/pkgs/main/noarch
+                          https://repo.anaconda.com/pkgs/r/linux-64
+                          https://repo.anaconda.com/pkgs/r/noarch
+          package cache : /data/jordan_tensor/miniconda3/pkgs
+                          /data/jordan_tensor/.conda/pkgs
+       envs directories : /data/jordan_tensor/miniconda3/envs
+                          /data/jordan_tensor/.conda/envs
+               platform : linux-64
+             user-agent : conda/24.1.2 requests/2.31.0 CPython/3.12.1 Linux/3.10.0-1160.83.1.0.1.el7.x86_64 oracle/7.9 glibc/2.17 solver/libmamba conda-libmamba-solver/23.12.0 libmambapy/1.5.3
+                UID:GID : 10273:10029
+             netrc file : /data/jordan_tensor/.netrc
+           offline mode : False
+
+
+Found existing installation: sae-vis 0.1
+Uninstalling sae-vis-0.1:
+  Would remove:
+    /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/sae_vis-0.1.dist-info/*
+    /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/sae_vis/*
+Proceed (Y/n)? ERROR: Exception:
+Traceback (most recent call last):
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/pip/_internal/cli/base_command.py", line 180, in exc_logging_wrapper
+    status = run_func(*args)
+             ^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/pip/_internal/commands/uninstall.py", line 105, in run
+    uninstall_pathset = req.uninstall(
+                        ^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/pip/_internal/req/req_install.py", line 727, in uninstall
+    uninstalled_pathset.remove(auto_confirm, verbose)
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/pip/_internal/req/req_uninstall.py", line 374, in remove
+    if auto_confirm or self._allowed_to_proceed(verbose):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/pip/_internal/req/req_uninstall.py", line 414, in _allowed_to_proceed
+    return ask("Proceed (Y/n)? ", ("y", "n", "")) != "n"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/pip/_internal/utils/misc.py", line 237, in ask
+    response = input(message)
+               ^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+Found existing installation: sparsify 0.0.1
+Uninstalling sparsify-0.0.1:
+  Would remove:
+    /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/__editable__.sparsify-0.0.1.pth
+    /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/__editable___sparsify_0_0_1_finder.py
+    /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/sparsify-0.0.1.dist-info/*
+Proceed (Y/n)? ERROR: Exception:
+Traceback (most recent call last):
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/pip/_internal/cli/base_command.py", line 180, in exc_logging_wrapper
+    status = run_func(*args)
+             ^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/pip/_internal/commands/uninstall.py", line 105, in run
+    uninstall_pathset = req.uninstall(
+                        ^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/pip/_internal/req/req_install.py", line 727, in uninstall
+    uninstalled_pathset.remove(auto_confirm, verbose)
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/pip/_internal/req/req_uninstall.py", line 374, in remove
+    if auto_confirm or self._allowed_to_proceed(verbose):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/pip/_internal/req/req_uninstall.py", line 414, in _allowed_to_proceed
+    return ask("Proceed (Y/n)? ", ("y", "n", "")) != "n"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/pip/_internal/utils/misc.py", line 237, in ask
+    response = input(message)
+               ^^^^^^^^^^^^^^
+EOFError: EOF when reading a line
+pip install -e .
+Obtaining file:///data/jordan_tensor/sparsify_10-04-2024
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Collecting eindex-callum@ git+https://github.com/callummcdougall/eindex (from sparsify==0.0.1)
+  Cloning https://github.com/callummcdougall/eindex to /tmp/pip-install-51flgz0c/eindex-callum_c7c2cb05ec1f45c59e9bb88185501f34
+  Running command git clone --filter=blob:none --quiet https://github.com/callummcdougall/eindex /tmp/pip-install-51flgz0c/eindex-callum_c7c2cb05ec1f45c59e9bb88185501f34
+  Resolved https://github.com/callummcdougall/eindex to commit 307eecdd77b2ded7d2db41d7880e2a1a65272c1c
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting sae-vis@ git+https://github.com/callummcdougall/sae_vis.git@b28a0f7c7e936f4bea05528d952dfcd438533cce (from sparsify==0.0.1)
+  Using cached sae_vis-0.1-py3-none-any.whl
+Requirement already satisfied: torch~=2.2.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (2.2.1)
+Requirement already satisfied: torchvision~=0.17.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (0.17.1)
+Requirement already satisfied: einops~=0.7.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (0.7.0)
+Requirement already satisfied: pydantic~=2.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (2.6.3)
+Requirement already satisfied: wandb~=0.16.2 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (0.16.4)
+Requirement already satisfied: fire~=0.5.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (0.5.0)
+Requirement already satisfied: tqdm~=4.66.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (4.66.2)
+Requirement already satisfied: pytest~=8.0.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (8.0.2)
+Requirement already satisfied: ipykernel~=6.29.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (6.29.3)
+Requirement already satisfied: transformer-lens~=1.14.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (1.14.0)
+Requirement already satisfied: jaxtyping~=0.2.25 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (0.2.28)
+Requirement already satisfied: python-dotenv~=1.0.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (1.0.1)
+Requirement already satisfied: zstandard~=0.22.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (0.22.0)
+Requirement already satisfied: matplotlib>=3.5.3 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sparsify==0.0.1) (3.8.3)
+Requirement already satisfied: six in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from fire~=0.5.0->sparsify==0.0.1) (1.16.0)
+Requirement already satisfied: termcolor in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from fire~=0.5.0->sparsify==0.0.1) (2.4.0)
+Requirement already satisfied: comm>=0.1.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipykernel~=6.29.0->sparsify==0.0.1) (0.2.1)
+Requirement already satisfied: debugpy>=1.6.5 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipykernel~=6.29.0->sparsify==0.0.1) (1.8.1)
+Requirement already satisfied: ipython>=7.23.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipykernel~=6.29.0->sparsify==0.0.1) (8.22.2)
+Requirement already satisfied: jupyter-client>=6.1.12 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipykernel~=6.29.0->sparsify==0.0.1) (8.6.0)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipykernel~=6.29.0->sparsify==0.0.1) (5.7.1)
+Requirement already satisfied: matplotlib-inline>=0.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipykernel~=6.29.0->sparsify==0.0.1) (0.1.6)
+Requirement already satisfied: nest-asyncio in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipykernel~=6.29.0->sparsify==0.0.1) (1.6.0)
+Requirement already satisfied: packaging in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipykernel~=6.29.0->sparsify==0.0.1) (24.0)
+Requirement already satisfied: psutil in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipykernel~=6.29.0->sparsify==0.0.1) (5.9.8)
+Requirement already satisfied: pyzmq>=24 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipykernel~=6.29.0->sparsify==0.0.1) (25.1.2)
+Requirement already satisfied: tornado>=6.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipykernel~=6.29.0->sparsify==0.0.1) (6.4)
+Requirement already satisfied: traitlets>=5.4.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipykernel~=6.29.0->sparsify==0.0.1) (5.14.1)
+Requirement already satisfied: numpy>=1.20.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from jaxtyping~=0.2.25->sparsify==0.0.1) (1.26.4)
+Requirement already satisfied: typeguard==2.13.3 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from jaxtyping~=0.2.25->sparsify==0.0.1) (2.13.3)
+Requirement already satisfied: contourpy>=1.0.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from matplotlib>=3.5.3->sparsify==0.0.1) (1.2.0)
+Requirement already satisfied: cycler>=0.10 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from matplotlib>=3.5.3->sparsify==0.0.1) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from matplotlib>=3.5.3->sparsify==0.0.1) (4.49.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from matplotlib>=3.5.3->sparsify==0.0.1) (1.4.5)
+Requirement already satisfied: pillow>=8 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from matplotlib>=3.5.3->sparsify==0.0.1) (10.2.0)
+Requirement already satisfied: pyparsing>=2.3.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from matplotlib>=3.5.3->sparsify==0.0.1) (3.1.2)
+Requirement already satisfied: python-dateutil>=2.7 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from matplotlib>=3.5.3->sparsify==0.0.1) (2.9.0.post0)
+Requirement already satisfied: annotated-types>=0.4.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from pydantic~=2.0->sparsify==0.0.1) (0.6.0)
+Requirement already satisfied: pydantic-core==2.16.3 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from pydantic~=2.0->sparsify==0.0.1) (2.16.3)
+Requirement already satisfied: typing-extensions>=4.6.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from pydantic~=2.0->sparsify==0.0.1) (4.10.0)
+Requirement already satisfied: iniconfig in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from pytest~=8.0.0->sparsify==0.0.1) (2.0.0)
+Requirement already satisfied: pluggy<2.0,>=1.3.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from pytest~=8.0.0->sparsify==0.0.1) (1.4.0)
+Requirement already satisfied: filelock in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (3.13.1)
+Requirement already satisfied: sympy in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (1.12)
+Requirement already satisfied: networkx in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (3.2.1)
+Requirement already satisfied: jinja2 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (3.1.3)
+Requirement already satisfied: fsspec in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (2024.2.0)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.1.105 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (12.1.105)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.1.105 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (12.1.105)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.1.105 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (12.1.105)
+Requirement already satisfied: nvidia-cudnn-cu12==8.9.2.26 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (8.9.2.26)
+Requirement already satisfied: nvidia-cublas-cu12==12.1.3.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (12.1.3.1)
+Requirement already satisfied: nvidia-cufft-cu12==11.0.2.54 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (11.0.2.54)
+Requirement already satisfied: nvidia-curand-cu12==10.3.2.106 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (10.3.2.106)
+Requirement already satisfied: nvidia-cusolver-cu12==11.4.5.107 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (11.4.5.107)
+Requirement already satisfied: nvidia-cusparse-cu12==12.1.0.106 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (12.1.0.106)
+Requirement already satisfied: nvidia-nccl-cu12==2.19.3 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (2.19.3)
+Requirement already satisfied: nvidia-nvtx-cu12==12.1.105 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from torch~=2.2.0->sparsify==0.0.1) (12.1.105)
+Requirement already satisfied: nvidia-nvjitlink-cu12 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from nvidia-cusolver-cu12==11.4.5.107->torch~=2.2.0->sparsify==0.0.1) (12.4.99)
+Requirement already satisfied: accelerate>=0.23.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from transformer-lens~=1.14.0->sparsify==0.0.1) (0.27.2)
+Requirement already satisfied: beartype<0.15.0,>=0.14.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from transformer-lens~=1.14.0->sparsify==0.0.1) (0.14.1)
+Requirement already satisfied: better-abc<0.0.4,>=0.0.3 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from transformer-lens~=1.14.0->sparsify==0.0.1) (0.0.3)
+Requirement already satisfied: datasets>=2.7.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from transformer-lens~=1.14.0->sparsify==0.0.1) (2.18.0)
+Requirement already satisfied: fancy-einsum>=0.0.3 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from transformer-lens~=1.14.0->sparsify==0.0.1) (0.0.3)
+Requirement already satisfied: pandas>=1.1.5 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from transformer-lens~=1.14.0->sparsify==0.0.1) (2.2.1)
+Requirement already satisfied: rich>=12.6.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from transformer-lens~=1.14.0->sparsify==0.0.1) (13.7.1)
+Requirement already satisfied: transformers>=4.34 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from transformer-lens~=1.14.0->sparsify==0.0.1) (4.38.2)
+Requirement already satisfied: Click!=8.0.0,>=7.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from wandb~=0.16.2->sparsify==0.0.1) (8.1.7)
+Requirement already satisfied: GitPython!=3.1.29,>=1.0.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from wandb~=0.16.2->sparsify==0.0.1) (3.1.42)
+Requirement already satisfied: requests<3,>=2.0.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from wandb~=0.16.2->sparsify==0.0.1) (2.31.0)
+Requirement already satisfied: sentry-sdk>=1.0.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from wandb~=0.16.2->sparsify==0.0.1) (1.41.0)
+Requirement already satisfied: docker-pycreds>=0.4.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from wandb~=0.16.2->sparsify==0.0.1) (0.4.0)
+Requirement already satisfied: PyYAML in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from wandb~=0.16.2->sparsify==0.0.1) (6.0.1)
+Requirement already satisfied: setproctitle in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from wandb~=0.16.2->sparsify==0.0.1) (1.3.3)
+Requirement already satisfied: setuptools in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from wandb~=0.16.2->sparsify==0.0.1) (69.1.1)
+Requirement already satisfied: appdirs>=1.4.3 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from wandb~=0.16.2->sparsify==0.0.1) (1.4.4)
+Requirement already satisfied: protobuf!=4.21.0,<5,>=3.19.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from wandb~=0.16.2->sparsify==0.0.1) (4.25.3)
+Requirement already satisfied: huggingface-hub in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from accelerate>=0.23.0->transformer-lens~=1.14.0->sparsify==0.0.1) (0.21.4)
+Requirement already satisfied: safetensors>=0.3.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from accelerate>=0.23.0->transformer-lens~=1.14.0->sparsify==0.0.1) (0.4.2)
+Requirement already satisfied: pyarrow>=12.0.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from datasets>=2.7.1->transformer-lens~=1.14.0->sparsify==0.0.1) (15.0.1)
+Requirement already satisfied: pyarrow-hotfix in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from datasets>=2.7.1->transformer-lens~=1.14.0->sparsify==0.0.1) (0.6)
+Requirement already satisfied: dill<0.3.9,>=0.3.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from datasets>=2.7.1->transformer-lens~=1.14.0->sparsify==0.0.1) (0.3.8)
+Requirement already satisfied: xxhash in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from datasets>=2.7.1->transformer-lens~=1.14.0->sparsify==0.0.1) (3.4.1)
+Requirement already satisfied: multiprocess in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from datasets>=2.7.1->transformer-lens~=1.14.0->sparsify==0.0.1) (0.70.16)
+Requirement already satisfied: aiohttp in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from datasets>=2.7.1->transformer-lens~=1.14.0->sparsify==0.0.1) (3.9.3)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from GitPython!=3.1.29,>=1.0.0->wandb~=0.16.2->sparsify==0.0.1) (4.0.11)
+Requirement already satisfied: decorator in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel~=6.29.0->sparsify==0.0.1) (5.1.1)
+Requirement already satisfied: jedi>=0.16 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel~=6.29.0->sparsify==0.0.1) (0.19.1)
+Requirement already satisfied: prompt-toolkit<3.1.0,>=3.0.41 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel~=6.29.0->sparsify==0.0.1) (3.0.43)
+Requirement already satisfied: pygments>=2.4.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel~=6.29.0->sparsify==0.0.1) (2.17.2)
+Requirement already satisfied: stack-data in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel~=6.29.0->sparsify==0.0.1) (0.6.3)
+Requirement already satisfied: pexpect>4.3 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from ipython>=7.23.1->ipykernel~=6.29.0->sparsify==0.0.1) (4.9.0)
+Requirement already satisfied: platformdirs>=2.5 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from jupyter-core!=5.0.*,>=4.12->ipykernel~=6.29.0->sparsify==0.0.1) (4.2.0)
+Requirement already satisfied: pytz>=2020.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from pandas>=1.1.5->transformer-lens~=1.14.0->sparsify==0.0.1) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from pandas>=1.1.5->transformer-lens~=1.14.0->sparsify==0.0.1) (2024.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from requests<3,>=2.0.0->wandb~=0.16.2->sparsify==0.0.1) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from requests<3,>=2.0.0->wandb~=0.16.2->sparsify==0.0.1) (3.6)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from requests<3,>=2.0.0->wandb~=0.16.2->sparsify==0.0.1) (2.2.1)
+Requirement already satisfied: certifi>=2017.4.17 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from requests<3,>=2.0.0->wandb~=0.16.2->sparsify==0.0.1) (2024.2.2)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from rich>=12.6.0->transformer-lens~=1.14.0->sparsify==0.0.1) (3.0.0)
+Requirement already satisfied: regex!=2019.12.17 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from transformers>=4.34->transformer-lens~=1.14.0->sparsify==0.0.1) (2023.12.25)
+Requirement already satisfied: tokenizers<0.19,>=0.14 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from transformers>=4.34->transformer-lens~=1.14.0->sparsify==0.0.1) (0.15.2)
+Requirement already satisfied: MarkupSafe>=2.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from jinja2->torch~=2.2.0->sparsify==0.0.1) (2.1.5)
+Requirement already satisfied: mpmath>=0.19 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from sympy->torch~=2.2.0->sparsify==0.0.1) (1.3.0)
+Requirement already satisfied: aiosignal>=1.1.2 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from aiohttp->datasets>=2.7.1->transformer-lens~=1.14.0->sparsify==0.0.1) (1.3.1)
+Requirement already satisfied: attrs>=17.3.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from aiohttp->datasets>=2.7.1->transformer-lens~=1.14.0->sparsify==0.0.1) (23.2.0)
+Requirement already satisfied: frozenlist>=1.1.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from aiohttp->datasets>=2.7.1->transformer-lens~=1.14.0->sparsify==0.0.1) (1.4.1)
+Requirement already satisfied: multidict<7.0,>=4.5 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from aiohttp->datasets>=2.7.1->transformer-lens~=1.14.0->sparsify==0.0.1) (6.0.5)
+Requirement already satisfied: yarl<2.0,>=1.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from aiohttp->datasets>=2.7.1->transformer-lens~=1.14.0->sparsify==0.0.1) (1.9.4)
+Requirement already satisfied: smmap<6,>=3.0.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from gitdb<5,>=4.0.1->GitPython!=3.1.29,>=1.0.0->wandb~=0.16.2->sparsify==0.0.1) (5.0.1)
+Requirement already satisfied: parso<0.9.0,>=0.8.3 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from jedi>=0.16->ipython>=7.23.1->ipykernel~=6.29.0->sparsify==0.0.1) (0.8.3)
+Requirement already satisfied: mdurl~=0.1 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from markdown-it-py>=2.2.0->rich>=12.6.0->transformer-lens~=1.14.0->sparsify==0.0.1) (0.1.2)
+Requirement already satisfied: ptyprocess>=0.5 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from pexpect>4.3->ipython>=7.23.1->ipykernel~=6.29.0->sparsify==0.0.1) (0.7.0)
+Requirement already satisfied: wcwidth in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from prompt-toolkit<3.1.0,>=3.0.41->ipython>=7.23.1->ipykernel~=6.29.0->sparsify==0.0.1) (0.2.13)
+Requirement already satisfied: executing>=1.2.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from stack-data->ipython>=7.23.1->ipykernel~=6.29.0->sparsify==0.0.1) (2.0.1)
+Requirement already satisfied: asttokens>=2.1.0 in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from stack-data->ipython>=7.23.1->ipykernel~=6.29.0->sparsify==0.0.1) (2.4.1)
+Requirement already satisfied: pure-eval in /data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages (from stack-data->ipython>=7.23.1->ipykernel~=6.29.0->sparsify==0.0.1) (0.2.2)
+Building wheels for collected packages: sparsify
+  Building editable for sparsify (pyproject.toml): started
+  Building editable for sparsify (pyproject.toml): finished with status 'done'
+  Created wheel for sparsify: filename=sparsify-0.0.1-0.editable-py3-none-any.whl size=3410 sha256=1139d9097f9754d59783e61e75bb1b1909983f41666cade170bf347fb834cc65
+  Stored in directory: /tmp/pip-ephem-wheel-cache-rteqkhx_/wheels/6f/d3/12/d9ddb0a7b009b15c1e61af143d8d1e8883fd7745ff74b93af9
+Successfully built sparsify
+Installing collected packages: sparsify
+  Attempting uninstall: sparsify
+    Found existing installation: sparsify 0.0.1
+    Uninstalling sparsify-0.0.1:
+      Successfully uninstalled sparsify-0.0.1
+Successfully installed sparsify-0.0.1
+gcc (GCC) 10.2.1 20210130 (Red Hat 10.2.1-11.1.0.1)
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Python 3.12.2
+/data/jordan_tensor/sparsify_10-04-2024
+Traceback (most recent call last):
+  File "/data/jordan_tensor/sparsify_10-04-2024/sparsify/scripts/generate_dashboards.py", line 1213, in <module>
+    fire.Fire(main)
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/fire/core.py", line 141, in Fire
+    component_trace = _Fire(component, args, parsed_flag_args, context, name)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/fire/core.py", line 475, in _Fire
+    component, remaining_args = _CallAndUpdateTrace(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/miniconda3/envs/py312/lib/python3.12/site-packages/fire/core.py", line 691, in _CallAndUpdateTrace
+    component = fn(*varargs, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/sparsify_10-04-2024/sparsify/scripts/generate_dashboards.py", line 1186, in main
+    dashboards_config = load_config(config_path_or_obj, config_model=DashboardsConfig)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/jordan_tensor/sparsify_10-04-2024/sparsify/utils.py", line 100, in load_config
+    assert Path(config_path_or_obj).exists(), f"Config file {config_path_or_obj} does not exist."
+AssertionError: Config file dashboards_old.yaml does not exist.
